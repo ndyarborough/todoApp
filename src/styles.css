@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Noto+Sans+HK:wght@100&family=Quicksand&display=swap');
+
+body {
+    background-color: rgb(23, 26, 25);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: ivory;
+    padding: 4vh 25vw;
+}
+
+.form-row {
+    border: white 1px solid;
+    box-sizing: border-box;
+}
+
+.form-row label {
+    font-size: 2rem;
+    margin-left: 1.5%;
+}
+
+.form-row input, .form-row .add-todo {
+    height: 5vh;
+    margin: 1vh auto;
+    color: ivory;
+    display: block;
+    border-radius: 8px;
+    font-size: 1rem
+}
+
+.form-row input {
+    width: 80%;
+    background-color: rgb(13, 155, 129);
+}
+
+.form-row .add-todo {
+    width: 30%;
+    background-color: rgba(13, 155, 129, 0.3);
+    padding: 0.5vh 0
+}
+
+.todo {
+    margin: 1vh 0;
+}
+
+.todo .deleteBtn {
+    background-color: rgb(23, 26, 25);
+    border: none;
+    color: red;
+    font-size: 2rem;
+}
+
+.todo .deleteBtn:hover {
+    color: rgb(153, 0, 0);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: rgb(152, 0, 0);
+}
+
+.todo label {
+    font-size: 2rem;
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    body {
+        padding: 4vh 18vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        padding: 4vh 8vw;
+    }
+}
